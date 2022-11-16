@@ -2,7 +2,7 @@
   <div>
     <div class="prose mb-12">
       <p>Lesson {{ chapter.number }} - {{ lesson.number }}</p>
-      <h2>{{ lesson.title }}</h2>
+      <h2>{{ lesson.title + "." }}</h2>
       <div class="flex space-x-4 mt-2 mb-8">
         <NuxtLink
           v-if="lesson.sourceUrl"
